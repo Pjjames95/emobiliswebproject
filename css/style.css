@@ -5,7 +5,7 @@
 .centered-tagline{
     text-align: center;
     margin: 20px;
-        }
+}
 .grid-container{
     display: grid;
     grid-template-areas:
