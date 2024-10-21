@@ -2,19 +2,18 @@
     display: flex;
     justify-content: center;
 }
-.container{
-    grid-gap: 10px;
-    justify-content: center;
-}
+.centered-tagline{
+    text-align: center;
+    margin: 20px;
+        }
 .grid-container{
     display: grid;
     grid-template-areas:
-'nb nb nb nb nb nb nb'
-'hb hb hb hb hb hb hb'
-'tb tb tb tb tb tb tb'
-'am am am am am am am'
-'sc sc sc sc sc sc sc'
-'cm cm cm cm cm cm cm'
+'nb nb nb nb nb'
+'hb hb hb hb hb'
+'tb tb tb tb tb'
+'am am am am am'
+'fb fb fb fb fb'
 ;
 }
 #navbar{
@@ -23,34 +22,24 @@
 #headerbar{
     grid-area: hb;
 }
-#aboutme{
-    grid-area: am;
-}
 #tagbar{
     grid-area: tb;
 }
-#socials{
-    grid-area: sc;
+#aboutbar{
+    grid-area: am;
 }
-#contactme{
-    grid-area: cm;
+#footersection{
+    grid-area: fb;
 }
-#skillsbar{
-    grid-area: sb;
+@media screen and (max-width: 600px) {
+.grid-container{
+    display: grid;
+    grid-template-areas:
+'nb nb nb nb nb'
+'hb hb hb hb hb'
+'tb tb tb tb tb'
+'am am am am am'
+'fb fb fb fb fb'
+;
 }
-#hobbiesbar{
-    grid-area: hs;
-}
-@media screen and (max-width: 600px){
-   .grid-container{
-       display: grid;
-       grid-template-areas:
-   'nb nb nb nb nb nb nb'
-   'hb hb hb hb hb hb'
-   'tb tb tb tb tb tb'
-   'sb sb sb sb sb sb'
-   'hb hb hb hb hb hb'
-   'sc sc sc sc sc sc'
-   'cm cm cm cm cm cm';
-   }
-}
+    }
