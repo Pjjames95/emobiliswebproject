@@ -1,0 +1,30 @@
+##PYTHON OBJECT ORIENTED PROGRAMMING
+*Classes
+
+A class is a collection of objects.
+A class contains the blueprints or the prototype from which the objects are being created.
+It is a logical entity that contains some attributes and methods.
+
+#*Objects#
+
+The object is an entity that has a state and behavior associated with it
+
+*Encapsulation
+
+It describes the idea of wrapping data and the methods that work on data within one unit.
+This puts restrictions on accessing variables and methods directly and can prevent the accidental modification of data.
+
+*Abstraction
+
+It hides unnecessary code details from the user.
+Also,  when we do not want to give out sensitive parts of our code implementation and this is where data abstraction came.
+
+*Polymorphism
+
+Simply means having many forms.
+It shows how subclasses can override methods defined in their parent class to provide specific
+behavior while still inheriting other methods from the parent class.
+
+*Inheritance
+
+Inheritance is the capability of one class to derive or inherit the properties from another class
