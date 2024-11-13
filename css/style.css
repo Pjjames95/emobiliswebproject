@@ -6,6 +6,11 @@
     text-align: center;
     margin: 20px;
 }
+.styledpara{
+    background-color: #1a1d20;
+    color: white;
+    padding: 10px;
+}
 .grid-container{
     display: grid;
     grid-template-areas:
